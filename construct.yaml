@@ -1,5 +1,5 @@
 name: FileSorter
-version: 0.0.1
+version: 0.0.2
 environment_file: environment.yaml
 installer_type: all
 license_file: LICENSE
@@ -21,6 +21,7 @@ extra_files:
 - app/python_scripts/hide_code_cells.py: FileSorter/hide_code_cells.py
 - app/python_scripts/include_path.py: FileSorter/include_path.py
 - construct.yaml: FileSorter/construct.yaml
+- notebooks/SortAndMove_Vf/SortAndMove_Vf.ipynb: FileSorter/notebooks/SortAndMove_Vf/SortAndMove_Vf.ipynb
 - notebooks/notebook_latest_versions.yaml: FileSorter/notebook_latest_versions.yaml
 - requirements.txt: FileSorter/requirements.txt
 post_install: app/bash_bat_scripts/post_install.bat # [win]
