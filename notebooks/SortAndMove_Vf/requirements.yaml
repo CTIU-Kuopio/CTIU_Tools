@@ -1,0 +1,7 @@
+dependencies:
+- ipywidgets==8.1.7
+description: This notebook 'SortAndMove_Vf.ipynb' is for the desktop app FileSorter
+linux_dependencies: []
+macos_dependencies: []
+python_version: 3.13.11
+windows_dependencies: []
